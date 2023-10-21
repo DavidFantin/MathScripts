@@ -16,7 +16,7 @@ def calc(r, scoreCol, weightCol, TOTAL):
     return TOTAL
 
 while True:
-    loc = "C:\\Users\\dfant\\Documents\\Grade_Calculator.xlsx"
+    loc = "C:\\Users\\dfant\\Documents\\00-CodingProjects\\workspace-main\\MathScripts\\Calculators\\Grade-Calculator\\Grade-Calculator.xlsx"
     wb = opx.load_workbook(loc)
     myfile = wb
     sheet = wb[wb.sheetnames[0]]
